@@ -3,7 +3,7 @@ max jumps: 2000
 gnuplot: octagon clock, _f1
 
 init: 
-  mode: _cont_f1tenth
+  mode: DNN1
   states:
     - x1 in [0, .05]
     - x2 in [0, 0]
@@ -12,6 +12,8 @@ init:
 
 unsafe:
   - mode: mode1
+    states:
+      - x2 <= 8.5
 
 print: 'on'
 plot: false
