@@ -127,7 +127,7 @@ u := 0.26179938779 * _f1</assignment>
   <component id="constants">
     <bind component="plant" as="plant_1" x="250.0" y="144.0">
       <map key="throttle">16</map>
-      <map key="timestep">0.1</map>
+      <map key="timestep">0.01</map>
       <map key="controller_const">0.26179938779</map>
       <map key="right_wall_x">.75</map>
       <map key="left_wall_x">-0.75</map>
