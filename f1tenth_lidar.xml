@@ -92,27 +92,27 @@ x2 &gt;= front_wall_y - 0.3</guard>
     </transition>
     <transition source="3" target="4">
       <assignment>clock := 0 &amp;
-_f1 :=  _f1 - 0.5 &amp;
-_f2 :=  _f2 - 0.5 &amp;
-_f3 :=  _f3 - 0.5 &amp;
-_f4 :=  _f4 - 0.5 &amp;
-_f5 :=  _f5 - 0.5 &amp;
-_f6 :=  _f6 - 0.5 &amp;
-_f7 :=  _f7 - 0.5 &amp;
-_f8 :=  _f8 - 0.5 &amp;
-_f9 :=  _f9 - 0.5 &amp;
-_f10 :=  _f10 - 0.5 &amp;
-_f11 :=  _f11 - 0.5 &amp;
-_f12 :=  _f12 - 0.5 &amp;
-_f13 :=  _f13 - 0.5 &amp;
-_f14 :=  _f14 - 0.5 &amp;
-_f15 :=  _f15 - 0.5 &amp;
-_f16 :=  _f16 - 0.5 &amp;
-_f17 :=  _f17 - 0.5 &amp;
-_f18 :=  _f18 - 0.5 &amp;
-_f19 :=  _f19 - 0.5 &amp;
-_f20 :=  _f20 - 0.5 &amp;
-_f21 :=  _f21 -0.5</assignment>
+_f1 :=  _f1 * 0.5 &amp;
+_f2 :=  _f2 * 0.5 &amp;
+_f3 :=  _f3 * 0.5 &amp;
+_f4 :=  _f4 * 0.5 &amp;
+_f5 :=  _f5 * 0.5 &amp;
+_f6 :=  _f6 * 0.5 &amp;
+_f7 :=  _f7 * 0.5 &amp;
+_f8 :=  _f8 * 0.5 &amp;
+_f9 :=  _f9 * 0.5 &amp;
+_f10 :=  _f10 * 0.5 &amp;
+_f11 :=  _f11 * 0.5 &amp;
+_f12 :=  _f12 * 0.5 &amp;
+_f13 :=  _f13 * 0.5 &amp;
+_f14 :=  _f14 * 0.5 &amp;
+_f15 :=  _f15 * 0.5 &amp;
+_f16 :=  _f16 * 0.5 &amp;
+_f17 :=  _f17 * 0.5 &amp;
+_f18 :=  _f18 * 0.5 &amp;
+_f19 :=  _f19 * 0.5 &amp;
+_f20 :=  _f20 * 0.5 &amp;
+_f21 :=  _f21 * 0.5</assignment>
       <labelposition x="-138.0" y="-21.0" width="180.0" height="96.0" />
       <middlepoint x="312.5" y="423.0" />
     </transition>
