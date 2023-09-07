@@ -5,7 +5,7 @@ gnuplot: octagon clock, _f1
 init: 
   mode: _cont_f1tenth
   states:
-    - x1 in [0, .0005]
+    - x1 in [0, .0001]
     - x2 in [0, 0]
     - x3 in [0, 0]
     - x4 in [1.5707963, 1.5707963]
