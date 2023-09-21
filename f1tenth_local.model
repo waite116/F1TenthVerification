@@ -1,0 +1,399 @@
+hybrid reachability
+{
+	 state var _f1, _f2, _f3, _f4, _f5, _f6, _f7, _f8, _f9, _f10, _f11, _f12, _f13, _f14, _f15, _f16, _f17, _f18, _f19, _f20, _f21, x1, x2, x3, x4, u, k, clock
+
+	setting
+	{
+		adaptive steps {min 1e-6, max 0.00001}
+		time 7
+		remainder estimation 1e-1
+		identity precondition 
+		gnuplot octagon clock, _f1
+		fixed orders 4	
+		cutoff 1e-18
+		precision 100
+		output autosig
+		max jumps 200
+		print on
+	}
+
+	modes
+	{
+		_DNN1
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		DNN1
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		_DNN3
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		DNN3
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		_DNN2
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		DNN2
+		{
+			nonpoly ode
+			{
+				_f20' = 0
+				_f21' = 0
+				_f16' = 0
+				_f17' = 0
+				_f18' = 0
+				_f19' = 0
+				_f12' = 0
+				_f13' = 0
+				_f14' = 0
+				_f15' = 0
+				_f2' = 0
+				_f10' = 0
+				_f1' = 0
+				_f11' = 0
+				k' = 0
+				clock' = 1
+				_f4' = 0
+				_f3' = 0
+				_f6' = 0
+				_f5' = 0
+				_f8' = 0
+				_f7' = 0
+				_f9' = 0
+				u' = 0
+				x1' = 0
+				x2' = 0
+				x3' = 0
+				x4' = 0
+			}
+			inv
+			{
+				clock <= 0
+			}
+		}
+		_cont_f1tenth
+		{
+			nonpoly ode
+			{
+				_f20' = 0.0
+				_f21' = 0.0
+				_f16' = 0.0
+				_f17' = 0.0
+				_f18' = 0.0
+				_f19' = 0.0
+				_f12' = 0.0
+				_f13' = 0.0
+				_f14' = 0.0
+				_f15' = 0.0
+				_f2' = 0.0
+				_f10' = 0.0
+				clock' = 1.0
+				k' = 0.0
+				_f1' = 0.0
+				_f11' = 0.0
+				_f4' = 0.0
+				_f3' = 0.0
+				_f6' = 0.0
+				_f5' = 0.0
+				_f8' = 0.0
+				_f7' = 0.0
+				_f9' = 0.0
+				u' = 0.0
+				x1' = x3 * cos(x4)
+				x2' = x3 * sin(x4)
+				x3' = 3.9192 - 1.633 * x3
+				x4' = 2.22222 * x3 * sin(u) / cos(u)
+			}
+			inv
+			{
+				clock <= 0.1
+			}
+		}
+		mode1
+		{
+			nonpoly ode
+			{
+				_f20' = 0.0
+				_f21' = 0.0
+				_f16' = 0.0
+				_f17' = 0.0
+				_f18' = 0.0
+				_f19' = 0.0
+				_f12' = 0.0
+				_f13' = 0.0
+				_f14' = 0.0
+				_f15' = 0.0
+				_f2' = 0.0
+				_f10' = 0.0
+				clock' = 1.0
+				k' = 0.0
+				_f1' = 0.0
+				_f11' = 0.0
+				_f4' = 0.0
+				_f3' = 0.0
+				_f6' = 0.0
+				_f5' = 0.0
+				_f8' = 0.0
+				_f7' = 0.0
+				_f9' = 0.0
+				u' = 0.0
+				x1' = 0.0
+				x2' = 0.0
+				x3' = 0.0
+				x4' = 0.0
+			}
+			inv
+			{
+				clock <= 0.0
+			}
+		}
+	}
+	jumps
+	{
+		_DNN1 -> DNN1
+		guard { }
+		reset { clock' := 0 }
+		interval aggregation
+		_DNN3 -> DNN3
+		guard { }
+		reset { clock' := 0 }
+		interval aggregation
+		_DNN2 -> DNN2
+		guard { }
+		reset { clock' := 0 }
+		interval aggregation
+		_cont_f1tenth -> mode1
+		guard { clock = 0.1 x1 >= 0.45 x2 <= 8.8 }
+		reset { clock' := 0.0 }
+		interval aggregation
+		_cont_f1tenth -> mode1
+		guard { clock = 0.1 x1 <= -0.45 }
+		reset { clock' := 0.0 }
+		interval aggregation
+		_cont_f1tenth -> mode1
+		guard { clock = 0.1 x2 >= 9.7 }
+		reset { clock' := 0.0 }
+		interval aggregation
+		_cont_f1tenth -> _DNN1
+		guard { clock = 0.1 x1 <= 0.45 x1 >= -0.45 x2 <= 3.5 }
+		reset { _f2' := x4 * 0.31830988618 clock' := 0.0 _f1' := x1 *0.6666666666 + 0.5 }
+		interval aggregation
+		_cont_f1tenth -> _DNN1
+		guard { clock = 0.1 x1 >= 5.75 x2 >= 8.8 x2 <= 9.7 }
+		reset { _f2' := x4 * 0.31830988618 + 0.5 clock' := 0.0 _f1' := 6.6666666666 - x2 * 0.6666666666 }
+		interval aggregation
+		_cont_f1tenth -> _DNN2
+		guard { clock = 0.1 x1 <= 0.45 x1 >= -0.45 x2 <= 8.5 x2 >= 3.5 }
+		reset { _f2' := 1.538461538461539 - x2 * 0.15384615384 clock' := 0.0 _f1' := x1 *0.15384615384 + 0.115384615384615 _f3' := x4 * 0.21220659078 }
+		interval aggregation
+		_cont_f1tenth -> _DNN2
+		guard { clock = 0.1 x1 <= 5.75 x1 >= -0.45 x2 >= 8.5 x2 <= 9.7 }
+		reset { _f2' := 1.538461538461539 - x2 * 0.15384615384 clock' := 0.0 _f1' := x1 * 0.15384615384 + 0.115384615384615 _f3' := x4 * 0.21220659078 }
+		interval aggregation
+		DNN1 -> _DNN3
+		guard { }
+		reset { _f16' := _f16 * 0.5 _f17' := _f17 * 0.5 _f18' := _f18 * 0.5 _f19' := _f19 * 0.5 _f12' := _f12 * 0.5 _f13' := _f13 * 0.5 _f14' := _f14 * 0.5 _f15' := _f15 * 0.5 _f20' := _f20 * 0.5 _f2' := _f2 * 0.5 _f10' := _f10 * 0.5 _f21' := _f21 * 0.5 clock' := 0.0 _f1' := _f1 * 0.5 _f11' := _f11 * 0.5 _f4' := _f4 * 0.5 _f3' := _f3 * 0.5 _f6' := _f6 * 0.5 _f5' := _f5 * 0.5 _f8' := _f8 * 0.5 _f7' := _f7 * 0.5 _f9' := _f9 * 0.5 }
+		interval aggregation
+		DNN3 -> _cont_f1tenth
+		guard { }
+		reset { u' := 0.26179938779 * _f1 clock' := 0.0 k' := k + 1.0 }
+		interval aggregation
+		DNN2 -> _DNN3
+		guard { }
+		reset { _f16' := _f16 * 0.5 _f17' := _f17 * 0.5 _f18' := _f18 * 0.5 _f19' := _f19 * 0.5 _f12' := _f12 * 0.5 _f13' := _f13 * 0.5 _f14' := _f14 * 0.5 _f15' := _f15 * 0.5 _f20' := _f20 * 0.5 _f2' := _f2 * 0.5 _f10' := _f10 * 0.5 _f21' := _f21 * 0.5 clock' := 0.0 _f1' := _f1 * 0.5 _f11' := _f11 * 0.5 _f4' := _f4 * 0.5 _f3' := _f3 * 0.5 _f6' := _f6 * 0.5 _f5' := _f5 * 0.5 _f8' := _f8 * 0.5 _f7' := _f7 * 0.5 _f9' := _f9 * 0.5 }
+		interval aggregation
+	}
+	init
+	{
+		_cont_f1tenth
+		{
+			x1 in [0, .0005]
+			x2 in [3.6, 3.6]
+			x3 in [0, 0]
+			x4 in [1.5707963, 1.5707963]
+		}
+	}
+}
+unsafe
+{
+	mode1
+	{
+		x2 >=0
+	}
+}
