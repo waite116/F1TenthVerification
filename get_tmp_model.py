@@ -61,10 +61,10 @@ def writeDnnModes(stream, weights, offsets, activations, dynamics, states, dnn_i
     numLayers = len(offsets)
     
     #first mode
-    writeOneMode(stream, dnn_index, dynamics, states,'DNN')
+    writeOneMode(stream, dnn_index, dynamics, states,'_DNN')
 
     #DNN mode
-    writeOneMode(stream, dnn_index, dynamics, states, '_DNN')
+    writeOneMode(stream, dnn_index, dynamics, states, 'DNN')
     
 def writeOneMode(stream, modeIndex, dynamics, states, name = ''):
     stream.write('\t\t' + name + str(modeIndex) + '\n')
@@ -199,7 +199,7 @@ def writeDnnJumps(stream, weights, offsets, activations, dynamics, dnn_index):
     numLayers = len(offsets)
 
     #jump from DNNx to _DNNx-----------------------------------------------------
-    writeIdentityDnnJump(stream, 'DNN'+ str(dnn_index), '_DNN'+str(dnn_index), dynamics)
+    writeIdentityDnnJump(stream, '_DNN'+ str(dnn_index), 'DNN'+str(dnn_index), dynamics)
 
 def writeIdentityDnnJump(stream, curModeName, nextModeName, dynamics):
 
@@ -236,6 +236,10 @@ def writePlantJumps(stream, plant, numNeurLayers):
                 for guard in plant[modeId]['transitions'][trans]['guards' + str(i)]:
                     stream.write(guard + ' ')
 
+                ## enforce uniformity to safe mode transition
+                fullcurModeName = curModeName + 'm' + str(trans[0] + numNeurLayers)  
+                if fullcurModeName == 'm4':
+                    stream.write('y1 <= 2.5 ')
                 stream.write('}\n')
 
                 stream.write('\t\treset { ')
@@ -255,7 +259,7 @@ def writePlantJumps(stream, plant, numNeurLayers):
 
 def writeDenoiser2ControllerJump(stream):
     resets = ['_f' + str(i) + '\' := 0.5*'+'_f' + str(i) + ' ' for i in range(1,22)]
-    stream.write('\t\t' + '_DNN2 -> DNN3 \n')
+    stream.write('\t\t' + 'DNN2 -> _DNN3 \n')
 
     stream.write('\t\tguard { clock = 0 }\n')
 
@@ -298,7 +302,7 @@ def writeDnn2PlantJumps(stream, trans, numNeurLayers, lastActivation, plant):
 
 def writeLidar2NoiserJumps(stream, numLidar):
 
-    stream.write('\t\t' +'m0'+' -> ' + 'DNN1'+ '\n')
+    stream.write('\t\t' +'m0'+' -> ' + '_DNN1'+ '\n')
     stream.write('\t\tguard { ')
     stream.write('clock = 0 ')     
     stream.write('}\n')
@@ -306,11 +310,11 @@ def writeLidar2NoiserJumps(stream, numLidar):
     #for i in range(numLidar+3, 2*numLidar+3): 
 
     # do the reset for the coordinates
-    for i in range(25, 46):           
-        stream.write('_f'+str(i) + "\' := _f"+str(i-24)+' ')
-    stream.write('_f22\' := y1-0.75 ')
-    stream.write('_f23\' := 10- y2 ')
-    stream.write('_f24\' := y3 + 1.570796 ')
+    for i in range(1, 22):           
+        stream.write('l'+str(i) + "\' := _f"+str(i)+' ')
+    stream.write('_f22\' := (y1 )*0.1 ')
+    stream.write('_f23\' := (10 - y2)*0.1 ')
+    stream.write('_f24\' := y4*0.21220659078 + 0.3333333333 ')
 
     stream.write('clock\' := 0')
     stream.write('}\n')
@@ -318,8 +322,8 @@ def writeLidar2NoiserJumps(stream, numLidar):
 
 ### make sure thresholds is predefined as a list of strings
 def writeDnn2RJumps(stream, thresholds, numRs):
-    StartNames = ['_DNN1']+ ['R' + str(i+1) for i in range(numRs)]
-    EndNames = ['R' + str(i+1) for i in range(numRs)] + ['DNN2']
+    StartNames = ['DNN1']+ ['R' + str(i+1) for i in range(numRs)]
+    EndNames = ['R' + str(i+1) for i in range(numRs)] + ['_DNN2']
 
     for i in range(len(StartNames)):
 
@@ -345,7 +349,7 @@ def writeDnn2RJumps(stream, thresholds, numRs):
         stream.write('}\n')
 
         stream.write('\t\treset { ')
-        stream.write('_f'+str(i+1) +"\' := " +'_f'+str(24+i+1)+' ' )
+        stream.write('_f'+str(i+1) +"\' := " +'l'+str(i+1)+' ' )
 
         stream.write('clock\' := 0')
         stream.write('}\n')
@@ -426,8 +430,8 @@ def writeEndJump(stream):
 
 def writeEndJumpSafe(stream):
 
-    stream.write('\t\t_cont_m2 ->  m_safe\n')
-    stream.write('\t\tguard { y1 >= 2.5}\n')
+    stream.write('\t\tm4 ->  m_safe\n')
+    stream.write('\t\tguard { y1 >= 2.5 y2 >= 0.15 y2 <= 1.35}\n')
     stream.write('\t\treset { ')
     stream.write('clock\' := 0')
     stream.write('}\n')
@@ -584,8 +588,12 @@ def writeComposedSystem(filename, initProps, dnns, plant, glueTrans, safetyProps
             stream.write(state + ', ')
 
         
-        for i in range(numLidar+1, 2*numLidar+5):
-            state = '_f' + str(i)
+        for i in [22,23,24]:
+            state = '_f'+str(i)
+            plant_states.append(state)
+            stream.write(state + ', ')
+        for i in range(1,21+1):
+            state = 'l'+str(i)
             plant_states.append(state)
             stream.write(state + ', ')
         
@@ -596,7 +604,7 @@ def writeComposedSystem(filename, initProps, dnns, plant, glueTrans, safetyProps
         stream.write('\tsetting\n')
         stream.write('\t{\n')
         stream.write('\t\tadaptive steps {min 1e-6, max 0.005}\n') # F1/10 case study (HSCC)
-        stream.write('\t\ttime ' + str(numSteps * (0.1)) + '\n') #F1/10 case study (HSCC)
+        stream.write('\t\ttime 6\n') #F1/10 case study (HSCC)
         stream.write('\t\tremainder estimation 1e-1\n')
         stream.write('\t\tidentity precondition\n')
         stream.write('\t\tmatlab octagon y1, y2\n')
@@ -604,7 +612,7 @@ def writeComposedSystem(filename, initProps, dnns, plant, glueTrans, safetyProps
         stream.write('\t\tcutoff 1e-12\n')
         stream.write('\t\tprecision 100\n')
         stream.write('\t\toutput f1tenth_tanh_tmp\n')
-        stream.write('\t\tmax jumps ' + str((numNeurLayers + 2 + 10 + 6 * numInputs) * numSteps) + '\n') #F1/10
+        stream.write('\t\tmax jumps 10000\n') #F1/10
         #stream.write('\t\tmax jumps 10\n') #F1/10 
         stream.write('\t\tprint on\n')
         stream.write('\t}\n\n')
@@ -672,21 +680,19 @@ def writeComposedSystem(filename, initProps, dnns, plant, glueTrans, safetyProps
 
 def main(argv):    
 
+    for i in range(len(argv)):
+        if '-s' in argv[i]:
+            curLBPos = float(argv[i+1])
+        if '-i' in argv[i]:
+            posOffset = float(argv[i+1])
     #dnnYaml = 'tanh64x64.yml'
     numRays = 21
     dnnYamls = []
-    if argv[0] == "Individual":
-        for i in range(numRays):
-            dnnYamls.append('noiser' + str(i+1) + '.yml')
-        dnnYamls.append("denoiser.yml")
-        dnnYamls.append("controller.yml")
-    elif argv[0] == "Composite":
-        dnnYamls.append('noiser.yml')  
-        dnnYamls.append("denoiser.yml")
-        dnnYamls.append("controller.yml")
-    else:
-        print("Error -> Specify the model type: Individual or Composite")
-        return  
+    
+    dnnYamls.append('noiser.yml')  
+    dnnYamls.append("denoiser.yml")
+    dnnYamls.append("controller.yml")
+     
     
     plantPickle = 'dynamics_' + name + '{}.pickle'.format(numRays)
     gluePickle = 'glue_{}.pickle'.format(numRays)
@@ -720,12 +726,13 @@ def main(argv):
     if not os.path.exists(modelFolder):
         os.makedirs(modelFolder)
 
-    curLBPos = 0.75
-    posOffset = 0.005
+    #curLBPos = 2.4
+    #posOffset = 0.001
 
     headingOffset = 0.000
 
     init_y2 = 10
+    init_h = 0
     #if TURN_ANGLE == -np.pi/2:
     #    init_y2 = 7
     
@@ -734,7 +741,7 @@ def main(argv):
     initProps = ['y1 in [' + str(curLBPos) + ', ' + str(curLBPos + posOffset) + ']',
                  'y2 in [' + str(init_y2) + ', ' + str(init_y2) + ']',
                  'y3 in [' + str(0) + ', ' + str(0) + ']',
-                 'y4 in [' + str(-headingOffset) + ', ' + str(headingOffset) + ']', 'k in [0, 0]',
+                 'y4 in [' + str(init_h) + ', ' + str(init_h) + ']', 'k in [0, 0]',
                  'u in [0, 0]', 'angle in [0, 0]', 'temp1 in [0, 0]', 'temp2 in [0, 0]',
                  'theta_l in [0, 0]', 'theta_r in [0, 0]']  # F1/10
     dnns = []
@@ -751,7 +758,7 @@ def main(argv):
 
         glue = pickle.load(f)
 
-    curModelFile = 'f1tenth_tanh_tmp.model'
+    curModelFile = 'f1tenth_start' +str(curLBPos)+'_intervalsize'+str(posOffset)+'.model'
 
     writeComposedSystem(curModelFile, initProps, dnns, plant, glue, safetyProps, NUM_STEPS)
 

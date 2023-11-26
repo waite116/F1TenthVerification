@@ -87,9 +87,15 @@ def train(net, loader, optimizer, epoch, device, log_interval=50, t=.1, loss_typ
         correct0 += c0
         correct1 += c1
         correct += c0+c1
-
-        w0 = 1
-        w1 = class1_weight
+        if num0 == 0:
+            w0 = 0
+            w1 = 1
+        elif num1 == 0:
+            w0=1
+            w1=0
+        else:
+            w0 = (num0+num1)/num0
+            w1 = (num0+num1)/num1
 
         if loss_type == 'BCE':
             loss_func = F.binary_cross_entropy
@@ -279,9 +285,7 @@ if __name__ == '__main__':
                         network.to(device)
                         weight_decay = decay
 
-                        # set parameters for first wave (small batch)
-                        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=250, shuffle=True)
-                        optimizer = optim.Adam(network.parameters(), lr=.01, weight_decay=weight_decay)
+                        #
                         best_loss = 1000000
                         loss_delta = 1000000
                         epsilon = 0.001
@@ -289,23 +293,8 @@ if __name__ == '__main__':
                         losses = []
                         epoch = 0
 
-                        while loss_delta > epsilon:
-                            acc, acc0, acc1, avg_loss = train(network, train_loader, optimizer, epoch+1, device, log_interval=100, t=thresh, loss_type=loss_type, class1_weight=class1_ratio)
-                            losses.append(avg_loss)
-                            epoch += 1
-                            if (epoch + 1) % 100==0:
-                                #best_loss = min(losses)
-                                test(network, train_loader, device, batch_size=25042, t=thresh)
-                                loss_delta = best_loss- min(losses)
-                                if loss_delta >0:
-                                    best_loss = min(losses)
-                                losses = []
-
-
-                        print("Training with batch size 250, learning rate 0.01 complete: ")
-                        test(network, train_loader, device, batch_size=25042, t=thresh)
-                        print("Starting training with batch size 25042, learning rate 0.001")
-                        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=25042, shuffle=True)
+        
+                        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=2504, shuffle=True)
                         optimizer = optim.Adam(network.parameters(), lr=.001, weight_decay=weight_decay)
                         best_loss = 1000000
                         loss_delta = 1000000
@@ -391,7 +380,7 @@ if __name__ == '__main__':
                         whole_scan_acc = round(100*correct/len(s_train))
                         print(whole_scan_acc)
                         
-                        PATH ='KnockoutNetworkAnalytics/Pos2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'BalancedDecay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
+                        PATH ='KnockoutNetworkAnalytics/Pos2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'BalancedFixedStepDecay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
                         torch.save(network.state_dict(), PATH)
                         #num_controllers = 12
                         #controller_errors = np.zeros(num_controllers)
@@ -421,7 +410,7 @@ if __name__ == '__main__':
                             control_error += np.abs(real[i]-gen_noisy[i])
                         #controller_errors[c] = control_error
 
-                        PATH ='KnockoutNetworkAnalytics/Pos2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+str(class1_ratio)+'Decay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
+                        PATH ='KnockoutNetworkAnalytics/Pos2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'BalancedFixedDecay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
                         torch.save(network.state_dict(), PATH)
                         #np.save(PATH[0:-4]+'ControllerErrors.npy', controller_errors)
                         np.save(PATH[0:-4]+'OptimalThresholds.npy', opt_t)
