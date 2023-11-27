@@ -700,7 +700,10 @@ def main(argv):
             dnnYamls.append(argv[i+1])
         if '-x' == argv[i]:
             noiser_size = argv[i+1]
+        if '-dx' == argv[i]:
+            denoiser_size = argv[i+1]
     print(noiser_size)
+    print(denoiser_size)
     #dnnYamls.append('noiser.yml')  
     #dnnYamls.append("denoiser.yml")
     #dnnYamls.append("controller.yml")
@@ -770,7 +773,7 @@ def main(argv):
 
         glue = pickle.load(f)
 
-    curModelFile = 'f1tenth_start' +str(curLBPos)+'_intervalsize'+str(posOffset)+'y2_'+str(init_y2)+'sz_' + noiser_size+'.model'
+    curModelFile = 'f1tenth_start' +str(curLBPos)+'_intervalsize'+str(posOffset)+'y2_'+str(init_y2)+'sz_' + noiser_size+denoiser_size + '.model'
 
     writeComposedSystem(curModelFile, initProps, dnns, plant, glue, safetyProps, NUM_STEPS, noiser_size)
 
