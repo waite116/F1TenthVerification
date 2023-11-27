@@ -168,7 +168,7 @@ def control_error_test(controller_filename, t, train_pos, train_clean_scans, rea
     
     gen_cont = np.zeros(len(train_pos))
     
-    pos_tensor = torch.Tensor(train_pos)
+    pos_tensor = torch.Tensor(s_train)
     i_output=network(pos_tensor).detach().numpy()
     control_error = 0
     
@@ -259,17 +259,17 @@ if __name__ == '__main__':
     print(s_train.shape)
     print(i_train.shape)
 
-    train_dataset = TensorDataset(torch.Tensor(train_pos), torch.Tensor(i_train))
+    train_dataset = TensorDataset(torch.Tensor(s_train), torch.Tensor(i_train))
     # these are  hyper-parameters.
     lidar_size = 21
-    input_dim = 3
+    input_dim = 3+lidar_size
     out_dim = lidar_size
 
     layer_widths = [100]
     layer_depths = [6,7]
     decays = [0.1, 0.01]
 
-    class1_ratios = [4]
+    class1_ratios = [3,4]
     loss_types = ['BCE']
     model_number = 1
     for decay in decays:
@@ -291,7 +291,7 @@ if __name__ == '__main__':
                         #
                         best_loss = 1000000
                         loss_delta = 1000000
-                        epsilon = 0.001
+                        epsilon = 0.0001
                         thresh= 0.5
                         losses = []
                         epoch = 0
@@ -301,7 +301,7 @@ if __name__ == '__main__':
                         optimizer = optim.Adam(network.parameters(), lr=.001, weight_decay=weight_decay)
                         best_loss = 1000000
                         loss_delta = 1000000
-                        epsilon = 0.001
+                        epsilon = 0.0001
                         losses = []
 
 
@@ -351,7 +351,7 @@ if __name__ == '__main__':
                         num_l = 21
                         opt_t = np.ones(num_l)*.5
                         threshes = np.linspace(0, 1, num=num_t)
-                        s_tensor = torch.Tensor(train_pos)
+                        s_tensor = torch.Tensor(s_train)
                         output = network(s_tensor)
                         target = torch.Tensor(i_train)
                         for i in range(5):
@@ -397,8 +397,7 @@ if __name__ == '__main__':
                         real = controller_real_outputs[c,:]
 
                         gen_noisy = np.zeros(len(s_train))
-
-                        s_tensor = torch.Tensor(train_pos)
+                        s_tensor = torch.Tensor(s_train)
                         i_output=network(s_tensor).detach().numpy()
                         control_error = 0
                         for i in range(len(train_clean_scans)):
@@ -413,7 +412,7 @@ if __name__ == '__main__':
                             control_error += np.abs(real[i]-gen_noisy[i])
                         #controller_errors[c] = control_error
 
-                        PATH ='KnockoutNetworkAnalytics/Pos2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'BalancedFixedDecay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
+                        PATH ='KnockoutNetworkAnalytics/PosScan2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'Decay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
                         torch.save(network.state_dict(), PATH)
                         #np.save(PATH[0:-4]+'ControllerErrors.npy', controller_errors)
                         np.save(PATH[0:-4]+'OptimalThresholds.npy', opt_t)

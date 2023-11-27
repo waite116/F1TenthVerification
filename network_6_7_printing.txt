@@ -1,0 +1,180 @@
+cuda
+(25042, 24)
+(25042, 21)
+0.1 100 6 BCE 4
+Whole Scan Accuracy: 2.36 %
+
+Train Epoch: 100 Loss: 12.5383   Accuracy:  83.56 
+	Accuracy 0: 82.07, Accuracy 1: 93.32
+Whole Scan Accuracy: 5.13 %
+
+Train Epoch: 200 Loss: 10.4162   Accuracy:  86.47 
+	Accuracy 0: 85.26, Accuracy 1: 94.35
+Whole Scan Accuracy: 6.25 %
+
+Train Epoch: 300 Loss: 9.7180   Accuracy:  87.09 
+	Accuracy 0: 85.88, Accuracy 1: 95.01
+Whole Scan Accuracy: 7.68 %
+
+Train Epoch: 400 Loss: 9.4480   Accuracy:  87.50 
+	Accuracy 0: 86.37, Accuracy 1: 94.89
+Whole Scan Accuracy: 8.13 %
+
+Train Epoch: 500 Loss: 9.2482   Accuracy:  87.66 
+	Accuracy 0: 86.52, Accuracy 1: 95.06
+Whole Scan Accuracy: 9.23 %
+
+Train Epoch: 600 Loss: 9.0560   Accuracy:  87.88 
+	Accuracy 0: 86.77, Accuracy 1: 95.09
+Whole Scan Accuracy: 8.47 %
+
+Train Epoch: 700 Loss: 9.2574   Accuracy:  87.73 
+	Accuracy 0: 86.65, Accuracy 1: 94.82
+Whole Scan Accuracy: 10.66 %
+
+Train Epoch: 800 Loss: 8.8661   Accuracy:  88.12 
+	Accuracy 0: 87.05, Accuracy 1: 95.11
+Whole Scan Accuracy: 10.09 %
+
+Train Epoch: 900 Loss: 8.8381   Accuracy:  88.24 
+	Accuracy 0: 87.19, Accuracy 1: 95.09
+Whole Scan Accuracy: 10.52 %
+
+Train Epoch: 1000 Loss: 8.5214   Accuracy:  88.85 
+	Accuracy 0: 87.88, Accuracy 1: 95.19
+Whole Scan Accuracy: 12.99 %
+
+Train Epoch: 1100 Loss: 8.0476   Accuracy:  89.56 
+	Accuracy 0: 88.65, Accuracy 1: 95.47
+Whole Scan Accuracy: 12.84 %
+
+Train Epoch: 1200 Loss: 7.8499   Accuracy:  89.78 
+	Accuracy 0: 88.87, Accuracy 1: 95.72
+Whole Scan Accuracy: 13.76 %
+
+Train Epoch: 1300 Loss: 7.8118   Accuracy:  89.94 
+	Accuracy 0: 89.07, Accuracy 1: 95.60
+Whole Scan Accuracy: 14.42 %
+
+Train Epoch: 1400 Loss: 7.6065   Accuracy:  90.15 
+	Accuracy 0: 89.27, Accuracy 1: 95.89
+Whole Scan Accuracy: 14.59 %
+
+Train Epoch: 1500 Loss: 7.5876   Accuracy:  90.21 
+	Accuracy 0: 89.34, Accuracy 1: 95.92
+Whole Scan Accuracy: 15.44 %
+
+Train Epoch: 1600 Loss: 7.5227   Accuracy:  90.30 
+	Accuracy 0: 89.45, Accuracy 1: 95.84
+Whole Scan Accuracy: 15.96 %
+
+Train Epoch: 1700 Loss: 7.3867   Accuracy:  90.44 
+	Accuracy 0: 89.59, Accuracy 1: 96.02
+Whole Scan Accuracy: 16.30 %
+
+Train Epoch: 1800 Loss: 7.3235   Accuracy:  90.50 
+	Accuracy 0: 89.64, Accuracy 1: 96.10
+Whole Scan Accuracy: 16.24 %
+
+Train Epoch: 1900 Loss: 7.2594   Accuracy:  90.67 
+	Accuracy 0: 89.85, Accuracy 1: 96.08
+Whole Scan Accuracy: 17.62 %
+
+Train Epoch: 2000 Loss: 7.2244   Accuracy:  90.70 
+	Accuracy 0: 89.87, Accuracy 1: 96.12
+Whole Scan Accuracy: 17.71 %
+
+Train Epoch: 2100 Loss: 7.0713   Accuracy:  90.92 
+	Accuracy 0: 90.10, Accuracy 1: 96.27
+Whole Scan Accuracy: 17.78 %
+
+Train Epoch: 2200 Loss: 7.0067   Accuracy:  91.01 
+	Accuracy 0: 90.19, Accuracy 1: 96.39
+Whole Scan Accuracy: 17.51 %
+
+Train Epoch: 2300 Loss: 6.9942   Accuracy:  90.96 
+	Accuracy 0: 90.12, Accuracy 1: 96.40
+Whole Scan Accuracy: 19.40 %
+
+Train Epoch: 2400 Loss: 6.9032   Accuracy:  91.13 
+	Accuracy 0: 90.32, Accuracy 1: 96.41
+Whole Scan Accuracy: 18.23 %
+
+Train Epoch: 2500 Loss: 6.9534   Accuracy:  91.08 
+	Accuracy 0: 90.27, Accuracy 1: 96.33
+Whole Scan Accuracy: 18.94 %
+
+Train Epoch: 2600 Loss: 6.8443   Accuracy:  91.21 
+	Accuracy 0: 90.40, Accuracy 1: 96.48
+Whole Scan Accuracy: 20.14 %
+
+Train Epoch: 2700 Loss: 6.7633   Accuracy:  91.34 
+	Accuracy 0: 90.54, Accuracy 1: 96.61
+Whole Scan Accuracy: 20.27 %
+
+Train Epoch: 2800 Loss: 6.7423   Accuracy:  91.30 
+	Accuracy 0: 90.47, Accuracy 1: 96.68
+Whole Scan Accuracy: 19.88 %
+
+Train Epoch: 2900 Loss: 6.7897   Accuracy:  91.30 
+	Accuracy 0: 90.52, Accuracy 1: 96.45
+Whole Scan Accuracy: 19.48 %
+
+Train Epoch: 3000 Loss: 6.8340   Accuracy:  91.31 
+	Accuracy 0: 90.55, Accuracy 1: 96.34
+Whole Scan Accuracy: 20.80 %
+
+Train Epoch: 3100 Loss: 6.7796   Accuracy:  91.32 
+	Accuracy 0: 90.52, Accuracy 1: 96.49
+Whole Scan Accuracy: 21.46 %
+
+Train Epoch: 3200 Loss: 6.6911   Accuracy:  91.42 
+	Accuracy 0: 90.62, Accuracy 1: 96.61
+Whole Scan Accuracy: 21.20 %
+
+Train Epoch: 3300 Loss: 6.5889   Accuracy:  91.55 
+	Accuracy 0: 90.75, Accuracy 1: 96.75
+Whole Scan Accuracy: 21.11 %
+
+Train Epoch: 3400 Loss: 6.6105   Accuracy:  91.48 
+	Accuracy 0: 90.67, Accuracy 1: 96.73
+Whole Scan Accuracy: 19.65 %
+
+Train Epoch: 3500 Loss: 6.7138   Accuracy:  91.43 
+	Accuracy 0: 90.65, Accuracy 1: 96.50
+Whole Scan Accuracy: 20.48 %
+
+Train Epoch: 3600 Loss: 6.6066   Accuracy:  91.51 
+	Accuracy 0: 90.73, Accuracy 1: 96.66
+Whole Scan Accuracy: 22.11 %
+
+Train Epoch: 3700 Loss: 6.4610   Accuracy:  91.62 
+	Accuracy 0: 90.82, Accuracy 1: 96.89
+Whole Scan Accuracy: 21.60 %
+
+Train Epoch: 3800 Loss: 6.3965   Accuracy:  91.81 
+	Accuracy 0: 91.04, Accuracy 1: 96.84
+Whole Scan Accuracy: 22.76 %
+
+Train Epoch: 3900 Loss: 6.3332   Accuracy:  91.87 
+	Accuracy 0: 91.09, Accuracy 1: 96.97
+Whole Scan Accuracy: 20.91 %
+
+Train Epoch: 4000 Loss: 6.4600   Accuracy:  91.69 
+	Accuracy 0: 90.90, Accuracy 1: 96.84
+Whole Scan Accuracy: 22.80 %
+
+Train Epoch: 4100 Loss: 6.3179   Accuracy:  91.85 
+	Accuracy 0: 91.07, Accuracy 1: 96.98
+Whole Scan Accuracy: 20.49 %
+
+Train Epoch: 4200 Loss: 6.4073   Accuracy:  91.81 
+	Accuracy 0: 91.05, Accuracy 1: 96.80
+Whole Scan Accuracy: 22.16 %
+
+Train Epoch: 4300 Loss: 6.2666   Accuracy:  91.85 
+	Accuracy 0: 91.05, Accuracy 1: 97.11
+Whole Scan Accuracy: 20.73 %
+
+Train Epoch: 4400 Loss: 6.3109   Accuracy:  91.92 
+	Accuracy 0: 91.14, Accuracy 1: 96.99
