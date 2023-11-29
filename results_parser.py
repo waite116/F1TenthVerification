@@ -96,10 +96,12 @@ uncovered_ranges = [str(l) + ', ' +str(r) for [l,r] in uncovered_ranges]
 
 
 # now join the individual lines together
+print('Total Completed: ', len(total_times))
 print('AVERAGE TIME: ', sum(total_times)/len(total_times))
-print('Number of runs over 2 hours: ', len([time for time in total_times if time > 7200]))
-print('Number of runs over 5 hours: ', len([time for time in total_times if time > 18000]))
-print('Number of runs over 10 hours: ', len([time for time in total_times if time > 36000])) 
+print('Number of runs under 2 hours: ', len([time for time in total_times if time < 7200]))
+print('Number of runs btwn 2 and 5 hours: ', len([time for time in total_times if time >= 7200 and time <18000]))
+print('Number of runs btwn 5 and 10 hours: ', len([time for time in total_times if time >= 18000 and time < 36000]))
+print('Number of runs above 10 hours: ', len([time for time in total_times if time >= 36000])) 
 header_line = 'X1 lower, X1 upper, Result, Total Time, DNN Time, Num Branches, Num Flowpipes\n'
 outstring = header_line + '\n'.join(outlines) + '\nCovered Ranges:\n' + '\n'.join(covered_ranges) + '\nUncovered Ranges:\n' + '\n'.join(uncovered_ranges)
 outfile_name = 'RESULTS_SUMMARY.txt'
