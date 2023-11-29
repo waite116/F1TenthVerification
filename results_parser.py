@@ -35,6 +35,7 @@ with open(filename_full, 'r', encoding='ASCII') as f:
     right_x3_bound = ''
     lines = f.readlines()
     output_empty = False
+    total_times = []
     if lines == []:
         print("no results found in file")
     else:
@@ -61,7 +62,8 @@ with open(filename_full, 'r', encoding='ASCII') as f:
                     bound_list.append([Decimal(left_x1_bound), Decimal(right_x1_bound)])
                     outline_list = [left_x1_bound, right_x1_bound, verify_result, total_time, dnn_time, num_branches, num_pipes]
                     outline_str = ', '.join(outline_list)
-                    outlines.append(outline_str)       
+                    outlines.append(outline_str)
+                    total_times.append(float(total_time))
 
 
                 
@@ -94,7 +96,10 @@ uncovered_ranges = [str(l) + ', ' +str(r) for [l,r] in uncovered_ranges]
 
 
 # now join the individual lines together
-
+print('AVERAGE TIME: ', sum(total_times)/len(total_times))
+print('Number of runs over 2 hours: ', len([time for time in total_times if time > 7200]))
+print('Number of runs over 5 hours: ', len([time for time in total_times if time > 18000]))
+print('Number of runs over 10 hours: ', len([time for time in total_times if time > 36000])) 
 header_line = 'X1 lower, X1 upper, Result, Total Time, DNN Time, Num Branches, Num Flowpipes\n'
 outstring = header_line + '\n'.join(outlines) + '\nCovered Ranges:\n' + '\n'.join(covered_ranges) + '\nUncovered Ranges:\n' + '\n'.join(uncovered_ranges)
 outfile_name = 'RESULTS_SUMMARY.txt'

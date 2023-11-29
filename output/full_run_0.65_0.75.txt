@@ -3598,3 +3598,435 @@ Initial conditions:
 [9.000000, 9.000000]
 [0.000000, 0.000000]
 [0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6337.849419[0m seconds.
+
+total branches: 8
+dnn runtime: 2720.343262
+
+Initial conditions:
+[0.663400, 0.663450]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 49800 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 18172.526327[0m seconds.
+
+total branches: 16
+dnn runtime: 7858.312012
+
+Initial conditions:
+[0.661650, 0.661700]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6377.196576[0m seconds.
+
+total branches: 8
+dnn runtime: 2755.195312
+
+Initial conditions:
+[0.663450, 0.663500]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6372.859982[0m seconds.
+
+total branches: 8
+dnn runtime: 2702.185791
+
+Initial conditions:
+[0.663500, 0.663550]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6409.840983[0m seconds.
+
+total branches: 8
+dnn runtime: 2775.316162
+
+Initial conditions:
+[0.663550, 0.663600]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6344.247892[0m seconds.
+
+total branches: 8
+dnn runtime: 2703.571533
+
+Initial conditions:
+[0.663600, 0.663650]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6416.169544[0m seconds.
+
+total branches: 8
+dnn runtime: 2720.104736
+
+Initial conditions:
+[0.663650, 0.663700]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6343.387511[0m seconds.
+
+total branches: 8
+dnn runtime: 2746.626221
+
+Initial conditions:
+[0.663750, 0.663800]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6349.953463[0m seconds.
+
+total branches: 8
+dnn runtime: 2747.820312
+
+Initial conditions:
+[0.663800, 0.663850]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6433.380903[0m seconds.
+
+total branches: 8
+dnn runtime: 2797.340576
+
+Initial conditions:
+[0.663700, 0.663750]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 96724 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 34962.269983[0m seconds.
+
+total branches: 26
+dnn runtime: 15098.966797
+
+Initial conditions:
+[0.658650, 0.658700]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18180 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6323.972804[0m seconds.
+
+total branches: 8
+dnn runtime: 2694.541260
+
+Initial conditions:
+[0.663850, 0.663900]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+ started process 61
+ started process 62
+ started process 63
+ started process 64
+ started process 65
+ started process 66
+ started process 67
+ started process 68
+ started process 69
+ started process 70
+ started process 71
+ started process 72
+ started process 73
+ started process 74
+ started process 75
+ started process 76
+ started process 77
+ started process 78
+ started process 79
+ started process 80
+ started process 81
+ started process 82
+ started process 83
+ started process 84
+ started process 85
+ started process 86
+ started process 87
+ started process 88
+ started process 89
+ started process 90
+ started process 91
+ started process 92
+ started process 93
+ started process 94
+ started process 95
+ started process 96
+ started process 97
+ started process 98
+ started process 99
+ started process 100
+ started process 101
+ started process 102
+ started process 103
+ started process 104
+ started process 105
+ started process 106
+ started process 107
+ started process 108
+ started process 109
+ started process 110
+ started process 111
+ started process 112
+ started process 113
+ started process 114
+ started process 115
+ started process 116
+ started process 117
+ started process 118
+ started process 119
+ started process 120
+ started process 121
+ started process 122
+ started process 123
+ started process 124
+ started process 125
+ started process 126
+ started process 127
+ started process 128
+ started process 129
+ started process 130
+ started process 131
+ started process 132
+ started process 133
+ started process 134
+ started process 135
+ started process 136
+ started process 137
+ started process 138
+ started process 139
+ started process 140
+ started process 141
+ started process 142
+ started process 143
+ started process 144
+ started process 145
+ started process 146
+ started process 147
+ started process 148
+ started process 149
+ started process 150
+ started process 151
+ started process 152
+ started process 153
+ started process 154
+ started process 155
+ started process 156
+ started process 157
+ started process 158
+ started process 159
+ started process 160
+ started process 161
+ started process 162
+ started process 163
+ started process 164
+ started process 165
+ started process 166
+ started process 167
+ started process 168
+ started process 169
+ started process 170
+ started process 171
+ started process 172
+ started process 173
+ started process 174
+ started process 175
+ started process 176
+ started process 177
+ started process 178
+ started process 179
+ started process 180
+ started process 181
+ started process 182
+ started process 183
+ started process 184
+ started process 185
+ started process 186
+ started process 187
+ started process 188
+ started process 189
+ started process 190
+ started process 191
+ started process 192
+ started process 193
+ started process 194
+ started process 195
+ started process 196
+ started process 197
+ started process 198
+ started process 199
+ started process 200
+ started process 201
+ started process 202
+ started process 203
+ started process 204
+ started process 205
+ started process 206
+ started process 207
+ started process 208
+ started process 209
+ started process 210
+ started process 211
+ started process 212
+ started process 213
+ started process 214
+ started process 215
+ started process 216
+ started process 217
+ started process 218
+ started process 219
+ started process 220
+ started process 221
+ started process 222
+ started process 223
+ started process 224
+ started process 225
+ started process 226
+ started process 227
+ started process 228
+ started process 229
+ started process 230
+ started process 231
+ started process 232
+ started process 233
+ started process 234
+ started process 235
+ started process 236
+ started process 237
+ started process 238
+ started process 239
+ started process 240
+ started process 241
+ started process 242
+ started process 243
+ started process 244
+ started process 245
+ started process 246
+ started process 247
+ started process 248
+ started process 249
+ started process 250
+ started process 251
+ started process 252
+ started process 253
+ started process 254
+ started process 255
+ started process 256
+ started process 257
+ started process 258
+ started process 259
+ started process 260
+ started process 261
+ started process 262
+ started process 263
+ started process 264
+ started process 265
+ started process 266
+ started process 267
+ started process 268
+ started process 269
+ started process 270
+ started process 271
+ started process 272
+ started process 273
+ started process 274
+ started process 275
+ started process 276
+ started process 277
+ started process 278
+ started process 279
+ started process 280
+ started process 281
+ started process 282
+ started process 283
+ started process 284
+ started process 285
+ started process 286
+ started process 287
+ started process 288
+ started process 289
+ started process 290
+ started process 291
+ started process 292
+ started process 293
+ started process 294
+ started process 295
+ started process 296
+ started process 297
+ started process 298
+ started process 299
+ started process 300
+ started process 301
+ started process 302
+ started process 303
+ started process 304
+ started process 305
+ started process 306
+ started process 307
+ started process 308
+ started process 309
+ started process 310
+ started process 311
+ started process 312
