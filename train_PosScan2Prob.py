@@ -266,8 +266,8 @@ if __name__ == '__main__':
     out_dim = lidar_size
 
     layer_widths = [100]
-    layer_depths = [6,7]
-    decays = [0.1, 0.01]
+    layer_depths = [6]
+    decays = [0.01, 0.1, .5]
 
     class1_ratios = [3,4]
     loss_types = ['BCE']
@@ -297,7 +297,7 @@ if __name__ == '__main__':
                         epoch = 0
 
         
-                        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=2504, shuffle=True)
+                        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=25042, shuffle=True)
                         optimizer = optim.Adam(network.parameters(), lr=.001, weight_decay=weight_decay)
                         best_loss = 1000000
                         loss_delta = 1000000
@@ -305,7 +305,7 @@ if __name__ == '__main__':
                         losses = []
 
 
-                        while loss_delta > epsilon:
+                        while epoch <20000:
                             acc, acc0, acc1, avg_loss = train(network, train_loader, optimizer, epoch+1, device, log_interval=100, t=thresh, loss_type=loss_type, class1_weight=class1_ratio)
                             losses.append(avg_loss)
                             epoch += 1
@@ -347,7 +347,7 @@ if __name__ == '__main__':
 
 
                         ## we only care about exact match, so we need to compute 
-                        num_t = 100
+                        num_t = 10
                         num_l = 21
                         opt_t = np.ones(num_l)*.5
                         threshes = np.linspace(0, 1, num=num_t)
@@ -412,7 +412,7 @@ if __name__ == '__main__':
                             control_error += np.abs(real[i]-gen_noisy[i])
                         #controller_errors[c] = control_error
 
-                        PATH ='KnockoutNetworkAnalytics/PosScan2Prob' + str(layer_depth) + 'x' + str(layer_width)+loss_type+'Decay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
+                        PATH ='KnockoutNetworkAnalytics/PosScan2Prob'+loss_type+str(class1_ratio) + str(layer_depth) + 'x' + str(layer_width)+loss_type+'Decay'+ str(weight_decay)+'WSA'+str(whole_scan_acc)+'Control_error'+str(round(control_error))+'Epochs'+str(epoch)+'WeightsMean'+str(weights_mean)[0:5]+'WeightsVar'+str(weights_var)[0:5]+'.pth'
                         torch.save(network.state_dict(), PATH)
                         #np.save(PATH[0:-4]+'ControllerErrors.npy', controller_errors)
                         np.save(PATH[0:-4]+'OptimalThresholds.npy', opt_t)
