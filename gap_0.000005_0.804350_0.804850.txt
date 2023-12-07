@@ -1,0 +1,1550 @@
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4068.004321[0m seconds.
+
+total branches: 1
+dnn runtime: 1614.682373
+
+Initial conditions:
+[0.804415, 0.804420]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4076.668879[0m seconds.
+
+total branches: 1
+dnn runtime: 1579.723755
+
+Initial conditions:
+[0.804455, 0.804460]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4087.500056[0m seconds.
+
+total branches: 1
+dnn runtime: 1599.132324
+
+Initial conditions:
+[0.804420, 0.804425]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4089.433577[0m seconds.
+
+total branches: 1
+dnn runtime: 1621.405029
+
+Initial conditions:
+[0.804460, 0.804465]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4094.886252[0m seconds.
+
+total branches: 1
+dnn runtime: 1582.994263
+
+Initial conditions:
+[0.804380, 0.804385]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4097.512148[0m seconds.
+
+total branches: 1
+dnn runtime: 1606.280273
+
+Initial conditions:
+[0.804375, 0.804380]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4096.214763[0m seconds.
+
+total branches: 1
+dnn runtime: 1608.510742
+
+Initial conditions:
+[0.804355, 0.804360]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4104.752406[0m seconds.
+
+total branches: 1
+dnn runtime: 1625.741089
+
+Initial conditions:
+[0.804385, 0.804390]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4104.748058[0m seconds.
+
+total branches: 1
+dnn runtime: 1584.668823
+
+Initial conditions:
+[0.804465, 0.804470]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4110.949339[0m seconds.
+
+total branches: 1
+dnn runtime: 1609.370972
+
+Initial conditions:
+[0.804370, 0.804375]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4113.164758[0m seconds.
+
+total branches: 1
+dnn runtime: 1621.585571
+
+Initial conditions:
+[0.804410, 0.804415]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4112.632414[0m seconds.
+
+total branches: 1
+dnn runtime: 1580.666260
+
+Initial conditions:
+[0.804350, 0.804355]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4119.128354[0m seconds.
+
+total branches: 1
+dnn runtime: 1603.050659
+
+Initial conditions:
+[0.804395, 0.804400]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4128.376178[0m seconds.
+
+total branches: 1
+dnn runtime: 1617.798706
+
+Initial conditions:
+[0.804405, 0.804410]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4126.431520[0m seconds.
+
+total branches: 1
+dnn runtime: 1581.109253
+
+Initial conditions:
+[0.804365, 0.804370]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4130.075089[0m seconds.
+
+total branches: 1
+dnn runtime: 1605.097290
+
+Initial conditions:
+[0.804435, 0.804440]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4130.172330[0m seconds.
+
+total branches: 1
+dnn runtime: 1591.883301
+
+Initial conditions:
+[0.804470, 0.804475]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4132.536295[0m seconds.
+
+total branches: 1
+dnn runtime: 1623.740234
+
+Initial conditions:
+[0.804445, 0.804450]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4134.330746[0m seconds.
+
+total branches: 1
+dnn runtime: 1601.896240
+
+Initial conditions:
+[0.804475, 0.804480]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4149.642826[0m seconds.
+
+total branches: 1
+dnn runtime: 1601.670532
+
+Initial conditions:
+[0.804450, 0.804455]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4151.328506[0m seconds.
+
+total branches: 1
+dnn runtime: 1600.325928
+
+Initial conditions:
+[0.804440, 0.804445]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4154.518859[0m seconds.
+
+total branches: 1
+dnn runtime: 1616.627930
+
+Initial conditions:
+[0.804390, 0.804395]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4155.965478[0m seconds.
+
+total branches: 1
+dnn runtime: 1578.453247
+
+Initial conditions:
+[0.804400, 0.804405]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4161.534813[0m seconds.
+
+total branches: 1
+dnn runtime: 1599.043823
+
+Initial conditions:
+[0.804360, 0.804365]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4161.308935[0m seconds.
+
+total branches: 1
+dnn runtime: 1607.577026
+
+Initial conditions:
+[0.804425, 0.804430]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11963 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4184.542643[0m seconds.
+
+total branches: 1
+dnn runtime: 1636.054199
+
+Initial conditions:
+[0.804430, 0.804435]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5449.303817[0m seconds.
+
+total branches: 2
+dnn runtime: 2079.013184
+
+Initial conditions:
+[0.804490, 0.804495]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5481.084558[0m seconds.
+
+total branches: 2
+dnn runtime: 2123.972656
+
+Initial conditions:
+[0.804500, 0.804505]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5497.506554[0m seconds.
+
+total branches: 2
+dnn runtime: 2140.714111
+
+Initial conditions:
+[0.804495, 0.804500]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5499.204945[0m seconds.
+
+total branches: 2
+dnn runtime: 2143.175293
+
+Initial conditions:
+[0.804505, 0.804510]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5708.138207[0m seconds.
+
+total branches: 3
+dnn runtime: 2243.334229
+
+Initial conditions:
+[0.804520, 0.804525]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5725.525961[0m seconds.
+
+total branches: 3
+dnn runtime: 2265.060059
+
+Initial conditions:
+[0.804530, 0.804535]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5739.999682[0m seconds.
+
+total branches: 3
+dnn runtime: 2276.215088
+
+Initial conditions:
+[0.804540, 0.804545]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5757.587032[0m seconds.
+
+total branches: 3
+dnn runtime: 2265.922852
+
+Initial conditions:
+[0.804515, 0.804520]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5762.420011[0m seconds.
+
+total branches: 3
+dnn runtime: 2275.864990
+
+Initial conditions:
+[0.804525, 0.804530]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5768.246110[0m seconds.
+
+total branches: 3
+dnn runtime: 2305.923096
+
+Initial conditions:
+[0.804560, 0.804565]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5785.358688[0m seconds.
+
+total branches: 3
+dnn runtime: 2272.589111
+
+Initial conditions:
+[0.804545, 0.804550]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5790.544838[0m seconds.
+
+total branches: 3
+dnn runtime: 2269.373291
+
+Initial conditions:
+[0.804565, 0.804570]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5802.447190[0m seconds.
+
+total branches: 3
+dnn runtime: 2260.108398
+
+Initial conditions:
+[0.804555, 0.804560]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5812.256139[0m seconds.
+
+total branches: 3
+dnn runtime: 2294.231934
+
+Initial conditions:
+[0.804590, 0.804595]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5810.576117[0m seconds.
+
+total branches: 3
+dnn runtime: 2290.051270
+
+Initial conditions:
+[0.804535, 0.804540]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5814.213444[0m seconds.
+
+total branches: 3
+dnn runtime: 2285.045410
+
+Initial conditions:
+[0.804550, 0.804555]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18164 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5822.939317[0m seconds.
+
+total branches: 3
+dnn runtime: 2247.603027
+
+Initial conditions:
+[0.804480, 0.804485]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5828.405701[0m seconds.
+
+total branches: 3
+dnn runtime: 2287.386719
+
+Initial conditions:
+[0.804595, 0.804600]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5828.926744[0m seconds.
+
+total branches: 3
+dnn runtime: 2281.156494
+
+Initial conditions:
+[0.804585, 0.804590]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5841.506492[0m seconds.
+
+total branches: 3
+dnn runtime: 2261.471436
+
+Initial conditions:
+[0.804570, 0.804575]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5850.858306[0m seconds.
+
+total branches: 3
+dnn runtime: 2339.261963
+
+Initial conditions:
+[0.804580, 0.804585]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18164 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5864.347444[0m seconds.
+
+total branches: 3
+dnn runtime: 2278.970947
+
+Initial conditions:
+[0.804485, 0.804490]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 5891.442760[0m seconds.
+
+total branches: 3
+dnn runtime: 2317.904541
+
+Initial conditions:
+[0.804575, 0.804580]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 18164 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 6020.747630[0m seconds.
+
+total branches: 3
+dnn runtime: 2374.040039
+
+Initial conditions:
+[0.804510, 0.804515]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+ started process 51
+ started process 52
+ started process 53
+ started process 54
+ started process 55
+ started process 56
+ started process 57
+ started process 58
+ started process 59
+ started process 60
+ started process 61
+ started process 62
+ started process 63
+ started process 64
+ started process 65
+ started process 66
+ started process 67
+ started process 68
+ started process 69
+ started process 70
+ started process 71
+ started process 72
+ started process 73
+ started process 74
+ started process 75
+ started process 76
+ started process 77
+ started process 78
+ started process 79
+ started process 80
+ started process 81
+ started process 82
+ started process 83
+ started process 84
+ started process 85
+ started process 86
+ started process 87
+ started process 88
+ started process 89
+ started process 90
+ started process 91
+ started process 92
+ started process 93
+ started process 94
+ started process 95
+ started process 96
+ started process 97
+ started process 98
+ started process 99
+ started process 100
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4618.656811[0m seconds.
+
+total branches: 2
+dnn runtime: 1807.947021
+
+Initial conditions:
+[0.804705, 0.804710]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4635.250506[0m seconds.
+
+total branches: 2
+dnn runtime: 1826.410889
+
+Initial conditions:
+[0.804690, 0.804695]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4638.955406[0m seconds.
+
+total branches: 2
+dnn runtime: 1834.118042
+
+Initial conditions:
+[0.804695, 0.804700]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4636.712190[0m seconds.
+
+total branches: 2
+dnn runtime: 1827.287720
+
+Initial conditions:
+[0.804685, 0.804690]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4636.753884[0m seconds.
+
+total branches: 2
+dnn runtime: 1826.211426
+
+Initial conditions:
+[0.804710, 0.804715]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4648.713873[0m seconds.
+
+total branches: 2
+dnn runtime: 1824.611450
+
+Initial conditions:
+[0.804700, 0.804705]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4620.309826[0m seconds.
+
+total branches: 2
+dnn runtime: 1824.288818
+
+Initial conditions:
+[0.804715, 0.804720]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4629.708073[0m seconds.
+
+total branches: 2
+dnn runtime: 1833.650879
+
+Initial conditions:
+[0.804725, 0.804730]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4651.157898[0m seconds.
+
+total branches: 2
+dnn runtime: 1833.322144
+
+Initial conditions:
+[0.804720, 0.804725]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4688.601965[0m seconds.
+
+total branches: 2
+dnn runtime: 1835.652466
+
+Initial conditions:
+[0.804680, 0.804685]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4851.244496[0m seconds.
+
+total branches: 3
+dnn runtime: 1933.885010
+
+Initial conditions:
+[0.804600, 0.804605]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4829.746190[0m seconds.
+
+total branches: 3
+dnn runtime: 1916.529053
+
+Initial conditions:
+[0.804605, 0.804610]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4837.515597[0m seconds.
+
+total branches: 3
+dnn runtime: 1921.519653
+
+Initial conditions:
+[0.804625, 0.804630]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4851.585343[0m seconds.
+
+total branches: 3
+dnn runtime: 1908.922607
+
+Initial conditions:
+[0.804620, 0.804625]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4850.242868[0m seconds.
+
+total branches: 3
+dnn runtime: 1930.681885
+
+Initial conditions:
+[0.804610, 0.804615]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4832.409071[0m seconds.
+
+total branches: 3
+dnn runtime: 1895.632812
+
+Initial conditions:
+[0.804645, 0.804650]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4831.247115[0m seconds.
+
+total branches: 3
+dnn runtime: 1902.487549
+
+Initial conditions:
+[0.804665, 0.804670]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4842.425865[0m seconds.
+
+total branches: 3
+dnn runtime: 1926.348145
+
+Initial conditions:
+[0.804655, 0.804660]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4846.063929[0m seconds.
+
+total branches: 3
+dnn runtime: 1904.881104
+
+Initial conditions:
+[0.804660, 0.804665]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4849.091990[0m seconds.
+
+total branches: 3
+dnn runtime: 1937.188477
+
+Initial conditions:
+[0.804650, 0.804655]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4841.287676[0m seconds.
+
+total branches: 3
+dnn runtime: 1921.826660
+
+Initial conditions:
+[0.804670, 0.804675]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4886.518702[0m seconds.
+
+total branches: 3
+dnn runtime: 1922.818481
+
+Initial conditions:
+[0.804630, 0.804635]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4852.207528[0m seconds.
+
+total branches: 3
+dnn runtime: 1913.488770
+
+Initial conditions:
+[0.804640, 0.804645]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4871.178206[0m seconds.
+
+total branches: 3
+dnn runtime: 1909.929443
+
+Initial conditions:
+[0.804635, 0.804640]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4904.892663[0m seconds.
+
+total branches: 3
+dnn runtime: 1949.793091
+
+Initial conditions:
+[0.804615, 0.804620]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3164.897036[0m seconds.
+
+total branches: 1
+dnn runtime: 1235.368774
+
+Initial conditions:
+[0.804815, 0.804820]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3178.006422[0m seconds.
+
+total branches: 1
+dnn runtime: 1231.157837
+
+Initial conditions:
+[0.804805, 0.804810]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3178.585184[0m seconds.
+
+total branches: 1
+dnn runtime: 1234.375366
+
+Initial conditions:
+[0.804820, 0.804825]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3194.285933[0m seconds.
+
+total branches: 1
+dnn runtime: 1243.792847
+
+Initial conditions:
+[0.804810, 0.804815]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3171.435012[0m seconds.
+
+total branches: 1
+dnn runtime: 1233.158081
+
+Initial conditions:
+[0.804835, 0.804840]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3178.519021[0m seconds.
+
+total branches: 1
+dnn runtime: 1232.310913
+
+Initial conditions:
+[0.804830, 0.804835]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3181.517296[0m seconds.
+
+total branches: 1
+dnn runtime: 1244.440674
+
+Initial conditions:
+[0.804825, 0.804830]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 17134 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4919.100140[0m seconds.
+
+total branches: 3
+dnn runtime: 1926.664917
+
+Initial conditions:
+[0.804675, 0.804680]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3181.011163[0m seconds.
+
+total branches: 1
+dnn runtime: 1238.990845
+
+Initial conditions:
+[0.804840, 0.804845]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 11960 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 3143.145944[0m seconds.
+
+total branches: 1
+dnn runtime: 1222.369507
+
+Initial conditions:
+[0.804845, 0.804850]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4061.253037[0m seconds.
+
+total branches: 2
+dnn runtime: 1505.962280
+
+Initial conditions:
+[0.804795, 0.804800]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4062.950602[0m seconds.
+
+total branches: 2
+dnn runtime: 1526.833252
+
+Initial conditions:
+[0.804800, 0.804805]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4493.547517[0m seconds.
+
+total branches: 2
+dnn runtime: 1761.766602
+
+Initial conditions:
+[0.804730, 0.804735]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4450.665965[0m seconds.
+
+total branches: 2
+dnn runtime: 1748.881470
+
+Initial conditions:
+[0.804735, 0.804740]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4460.762690[0m seconds.
+
+total branches: 2
+dnn runtime: 1740.225830
+
+Initial conditions:
+[0.804740, 0.804745]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4462.028143[0m seconds.
+
+total branches: 2
+dnn runtime: 1749.714478
+
+Initial conditions:
+[0.804745, 0.804750]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4244.864842[0m seconds.
+
+total branches: 2
+dnn runtime: 1603.593018
+
+Initial conditions:
+[0.804790, 0.804795]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4251.646578[0m seconds.
+
+total branches: 2
+dnn runtime: 1630.711060
+
+Initial conditions:
+[0.804785, 0.804790]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4313.426070[0m seconds.
+
+total branches: 2
+dnn runtime: 1668.133057
+
+Initial conditions:
+[0.804775, 0.804780]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4281.764442[0m seconds.
+
+total branches: 2
+dnn runtime: 1649.317627
+
+Initial conditions:
+[0.804780, 0.804785]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4376.805983[0m seconds.
+
+total branches: 2
+dnn runtime: 1692.141968
+
+Initial conditions:
+[0.804760, 0.804765]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4347.286921[0m seconds.
+
+total branches: 2
+dnn runtime: 1680.781006
+
+Initial conditions:
+[0.804770, 0.804775]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4358.075690[0m seconds.
+
+total branches: 2
+dnn runtime: 1682.247314
+
+Initial conditions:
+[0.804765, 0.804770]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4446.532449[0m seconds.
+
+total branches: 2
+dnn runtime: 1736.370605
+
+Initial conditions:
+[0.804750, 0.804755]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
+
+Computation completed: 16495 flowpipe(s) computed.
+
+[1mResult of the safety verification on the computed flowpipes: [0m[1m[32mSAFE
+
+[0mTotal time cost:[1m 4413.294049[0m seconds.
+
+total branches: 2
+dnn runtime: 1722.935791
+
+Initial conditions:
+[0.804755, 0.804760]
+[9.000000, 9.000000]
+[0.000000, 0.000000]
+[0.000000, 0.000000]
